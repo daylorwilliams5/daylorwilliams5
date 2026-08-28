@@ -6,9 +6,9 @@ A major focus of my current work is agent evaluation: defining what correct beha
 
 ## Current work
 
-### AgentTrace
+### [AgentTrace](https://github.com/daylorwilliams5/AgentTrace)
 
-Independent project, private repository, in active development. A React and TypeScript developer tool for debugging AI agents by comparing two execution trajectories.
+Independent project, in active development. A React and TypeScript developer tool for debugging AI agents by comparing two execution trajectories. Source is public and MIT licensed; write-up at [daylor.ai/agenttrace](https://daylor.ai/agenttrace).
 
 - Normalizes traces into a common representation and aligns two runs using deterministic weighted Needleman-Wunsch sequence alignment.
 - Produces field-level behavioral diffs, collapses identical regions, and surfaces the first observable divergence.
