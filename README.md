@@ -1,6 +1,6 @@
 # Daylor Williams
 
-I build and evaluate AI agent systems, and I do ML research on vision-transformer representations. Cognitive Science (Computing specialization) at UCLA, graduating June 2027.
+I build and evaluate AI agent systems, and I do ML research on vision-transformer representations. Cognitive Science (Computing specialization) at UCLA, graduating December 2026.
 
 A major focus of my current work is agent evaluation: defining what correct behavior means when a system can reach the same result through different execution paths, and building the tooling to measure it.
 
