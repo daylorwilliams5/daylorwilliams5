@@ -16,6 +16,16 @@ Independent project, in active development. A React and TypeScript developer too
 
 AgentTrace reports where two runs first differ in observable behavior. It does not determine root cause or explain why a run diverged.
 
+### [FLAGGED](https://apps.apple.com/us/app/flagged-daily-flag-game/id6807586173)
+
+Daily geography game for iPhone, built with Expo, React Native, and TypeScript. Published to the App Store in September 2026. Free, no account, and fully playable offline.
+
+- Deterministic daily generation: every player gets the same balanced set of ten flags for a given calendar day, computed on device with no backend.
+- Two input modes. The typed mode forgives capitalization, accents, spacing, and punctuation and accepts common alternate names, but still requires exact spelling when a near miss would be a different country.
+- Local-only persistence. No account, no ads, no tracking, and no collected data.
+
+Application source is private. [Site](https://daylorwilliams5.github.io/flagged-site/) and [privacy policy](https://daylorwilliams5.github.io/flagged-site/privacy-policy.html).
+
 ### UCLA Technology Development Group
 
 AI Product Intern. Building and evaluating a multi-stage agentic system for patent prior-art search.
@@ -35,6 +45,9 @@ For the vertical/horizontal spatial relation specifically, a linear probe reache
 
 ## Public repositories
 
+[orbit](https://github.com/daylorwilliams5/orbit)
+Local-first personal intelligence system. Next.js and TypeScript over Postgres with pgvector, using Drizzle and Zod. Unstructured text is turned into structured records through a reviewed LLM extraction step, with retrieval and deterministic planning on top. Normal use runs against a local Ollama model and requires no paid inference; a hosted provider is supported only as an optional benchmarking reference. Ships an extraction evaluation harness.
+
 [clip-binding-probe](https://github.com/daylorwilliams5/clip-binding-probe)
 Where attribute binding appears and disappears inside CLIP's vision encoder, and whether a learned projection can recover it. Layer-wise probes with permutation tests and leave-one-shape-out evaluation. The finding is negative: the recovered signal is entangled with object identity and does not transfer to unseen shapes.
 
@@ -49,7 +62,7 @@ ML: PyTorch, vision transformers, representation analysis, linear probes, evalua
 
 Agent systems: agent evaluation, trace comparison, sequence alignment, golden-case evaluation, failure analysis
 
-Development: React, REST APIs, OAuth, DuckDB, Git
+Development: React, React Native and Expo, Next.js, Postgres and pgvector, REST APIs, OAuth, DuckDB, Git
 
 ## Links
 
